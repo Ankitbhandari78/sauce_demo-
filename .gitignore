@@ -1,5 +1,20 @@
-node_modules/
-playwright-report/
-test-results/
+cat >> .gitignore << 'EOF'
+
+# Caches
+.pytest_cache/
+__pycache__/
+*.pyc
+report.html
+screenshots/*.png
+
+# Editor
+.vscode/
+.DS_Store
+
+# Personal AI tooling
+.agents/
+.qa-skills.json
+
+# Secrets
 .env
-*.log
+EOF

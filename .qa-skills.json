@@ -1,0 +1,12 @@
+{
+  "version": "3.2.3",
+  "skills": [
+    "accessibility-test-writer"
+  ],
+  "agents": [
+    "cline"
+  ],
+  "scope": "global",
+  "method": "symlink",
+  "installedAt": "2026-10-02T05:33:06.074Z"
+}
