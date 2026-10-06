@@ -38,3 +38,5 @@ report.html
 # Personal AI tooling
 .agents/
 .qa-skills.json
+.clinerules/
+CLINE.md
