@@ -1,20 +1,40 @@
-cat >> .gitignore << 'EOF'
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
 
-# Caches
-.pytest_cache/
+# Python
 __pycache__/
-*.pyc
-report.html
-screenshots/*.png
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
 
-# Editor
-.vscode/
+# Test artifacts
+test-results/
+playwright-report/
+.allure-results/
+screenshots/
+videos/
+traces/
+
+# OS / editor
 .DS_Store
+.idea/
+.vscode/
+*.swp
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local artifacts
+report.html
 
 # Personal AI tooling
 .agents/
 .qa-skills.json
-
-# Secrets
-.env
-EOF
